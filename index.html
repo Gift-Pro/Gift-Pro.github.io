@@ -105,7 +105,20 @@
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <p class="u-text">
-        <div><iframe src="https://onedrive.live.com/embed?resid=C0A23F659394D013%21109&authkey=!ADVWDr04-cCHqaQ&em=2" width="100%"  frameborder="0" scrolling="no"></iframe>
+        <div><iframe src="https://onedrive.live.com/embed?resid=C0A23F659394D013%21109&authkey=!ADVWDr04-cCHqaQ&em=2" 
+	if ((screen.width==800) ＆＆ (screen.height==600))
+	 width="800" height="600";
+	else if ((screen.width==1024) ＆＆ (screen.height==768))
+	 width="1024" height="768";
+	else if ((screen.width==1920) ＆＆ (screen.height==1080))
+	width="1920" height="1080";
+	else if ((screen.width==2560) ＆＆ (screen.height==1440))
+	width="2560" height="1440";
+	else if ((screen.width==3840) ＆＆ (screen.height==2160))
+	width="3840" height="2160";
+
+	else width="800" height="600";;
+	} frameborder="0" scrolling="no"></iframe>
         </div>	
       </p>
     </section><span style="height: 64px; width: 64px; margin-left: 0px; margin-right: auto; margin-top: 0px; right: 30px; bottom: 20px; padding: 20px; background-image: none;" class="u-back-to-top u-icon u-icon-circle u-opacity u-opacity-85 u-palette-1-base" data-href="#">
