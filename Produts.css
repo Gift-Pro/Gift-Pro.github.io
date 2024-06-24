@@ -23,7 +23,7 @@
 
 .u-section-1 .u-list-1 {
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 0;
 }
 
 .u-section-1 .u-repeater-1 {
@@ -451,6 +451,21 @@
   width: 254px;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 40px auto 0;
+}
+
+.u-section-1 .u-text-18 {
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 100px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  font-style: normal;
+  margin: 40px auto 60px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  padding: 0;
 }
 
 @media (max-width: 1199px) {
