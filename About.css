@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 561px;
+  min-height: 712px;
 }
 
 .u-section-1 .u-image-1 {
@@ -39,7 +39,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 561px;
+    min-height: 828px;
   }
 
   .u-section-1 .u-rotation-parent-1 {
@@ -56,10 +56,6 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-image-1 {
-    inset: auto;
-  }
-
   .u-section-1 .u-rotation-parent-1 {
     margin-left: 81px;
     margin-right: 270px;
