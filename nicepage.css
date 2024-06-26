@@ -42727,7 +42727,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 111px;
+  min-height: 120px;
 }
 .u-header .u-section-row-2 {
   background-image: none;
@@ -42751,7 +42751,11 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
-
+@media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 111px;
+  }
+}
 
 
 @media (max-width: 991px) {
