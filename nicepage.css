@@ -42721,14 +42721,13 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
-.u-header .u-sheet-1 {
-  min-height: 111px;
+.u-header .u-image-1 {
+  background-image: url("images/BB01.jpg");
+  background-position: 50% 50%;
 }
 
-.u-header .u-image-1 {
-  width: 458px;
-  height: 82px;
-  margin: 18px auto 11px;
+.u-header .u-sheet-1 {
+  min-height: 111px;
 }
 .u-header .u-section-row-2 {
   background-image: none;
@@ -42767,11 +42766,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
     min-height: 90px;
-  }
-
-  .u-header .u-image-1 {
-    width: 340px;
-    height: 61px;
   }
 }
 
